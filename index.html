@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Personal Pokedex</title>
+</head>
+<body class="loading">
+	<div class="container">
+		<div class="pokemon-icons row"></div>
+		<div id="pokemon-cards" class="container">
+			<div class="row hidden pokemon-card" id="pokemon-300-card">
+				<div class="col s12 m12 center-align">
+					<div class="card large">
+						<div class="card-image" id="pokemon-name-300">
+							<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/300.png">
+						</div>
+						<div class="card-content">
+							<p>Skitty has the habit of becoming fascinated by moving objects and chasing them around. This Pokémon is known to chase after its own tail and become dizzy.</p>
+						</div>
+						<div class="card-tabs">
+							<ul class="tabs tabs-fixed-width">
+								<li class="tab"><a href="#pokemon-weight-300">Weight</a></li>
+								<li class="tab"><a href="#pokemon-height-300">Height</a></li>
+								<li class="tab"><a href="#pokemon-hp-300">HP</a></li>
+								<li class="tab"><a href="#pokemon-attack-300">Attack</a></li>
+								<li class="tab"><a href="#pokemon-defense-300">Defense</a></li>
+								<li class="tab"><a href="#pokemon-abilities-300">Abilities</a></li>
+							</ul>
+						</div>
+						<div class="card-content grey lighten-4" id="pokemon-properties-300"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row hidden pokemon-card" id="pokemon-653-card">
+				<div class="col s12 m12 center-align">
+					<div class="card large">
+						<div class="card-image" id="pokemon-name-653">
+							<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/653.png">
+						</div>
+						<div class="card-content">
+							<p>Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.</p>
+						</div>
+						<div class="card-tabs">
+							<ul class="tabs tabs-fixed-width">
+								<li class="tab"><a href="#pokemon-weight-653">Weight</a></li>
+								<li class="tab"><a href="#pokemon-height-653">Height</a></li>
+								<li class="tab"><a href="#pokemon-hp-653">HP</a></li>
+								<li class="tab"><a href="#pokemon-attack-653">Attack</a></li>
+								<li class="tab"><a href="#pokemon-defense-653">Defense</a></li>
+								<li class="tab"><a href="#pokemon-abilities-653">Abilities</a></li>
+							</ul>
+						</div>
+						<div class="card-content grey lighten-4" id="pokemon-properties-653"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row hidden pokemon-card" id="pokemon-151-card">
+				<div class="col s12 m12 center-align">
+					<div class="card large">
+						<div class="card-image" id="pokemon-name-151">
+							<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png">
+						</div>
+						<div class="card-content">
+							<p>Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.</p>
+						</div>
+						<div class="card-tabs">
+							<ul class="tabs tabs-fixed-width">
+								<li class="tab"><a href="#pokemon-weight-151">Weight</a></li>
+								<li class="tab"><a href="#pokemon-height-151">Height</a></li>
+								<li class="tab"><a href="#pokemon-hp-151">HP</a></li>
+								<li class="tab"><a href="#pokemon-attack-151">Attack</a></li>
+								<li class="tab"><a href="#pokemon-defense-151">Defense</a></li>
+								<li class="tab"><a href="#pokemon-abilities-151">Abilities</a></li>
+							</ul>
+						</div>
+						<div class="card-content grey lighten-4" id="pokemon-properties-151"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script src="pokemon.js"></script>
+	<script src="trainer.js"></script>
+	<script src="app.js"></script>
+	<script type="text/javascript">
+		app.init();
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body.loading {
+  background: url("../loader.gif") no-repeat fixed center; }
+
+.loading .container {
+  display: none; }
+
+.pokemon-link.btn-large {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(#ffcdd2, #ef9a9a); }
+
+.pokemon-icons {
+  padding-top: 30px; }
+  .pokemon-icons img {
+    max-width: 100%; }
+
+.card .card-image .card-title {
+  color: black;
+  left: 60%;
+  font-size: 48px;
+  font-weight: 600; }
+.card .card-image img {
+  max-height: 300px;
+  width: auto; }
+
+.hidden {
+  display: none; }
+
+.show-it {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */
